@@ -1,0 +1,31 @@
+*{
+    margin:0;left:0;box-sizing: border-box;
+}
+body{
+    min-height:100vh;background:linear-gradient(#5C246E,purple);display: flex;justify-content: center;align-items: center;font-family:consolas;
+}
+.content{
+    display: flex;flex-direction: column;height:100%;background:white;border-radius:5px;padding:20px;
+}
+.content h1{
+padding: 5px;margin:20px;margin-left:0px;margin-right:0px;font-size:3rem;color:#5c246e;
+}.todoContainer input{
+    background:transparent;padding:5px 15px;border:2px solid black;outline:none;font-size:1.3rem;margin-bottom:20px;
+    width: 100%;
+}.content h1 span{
+    font-weight:400;color:purple;
+}
+#add{
+    height:50px;width:70px;padding:;text-align: center;font-weight: 800;font-size: 1.4rem;line-height: 25px;position: relative;left:40%;top:50%;
+    background:purple;border:none;outline: none;color:white;
+}
+#add:hover{
+    background: white;color:purple;transition: .5s;
+}
+.newInput{
+border:1.4px solid black;   margin:10px;margin-top:20px; padding:5px 10px;font-size: 1.2rem;font-weight: 700;
+}
+.editBtn,.removeBtn{
+    font-size:1.3rem;font-weight:700;margin:3px;
+    background: transparent;border-radius: 5px;color:#5C246E;font-weight: 800;border:none;outline:none;
+}
