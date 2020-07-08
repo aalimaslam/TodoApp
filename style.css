@@ -23,7 +23,7 @@ padding: 5px;margin:20px;margin-left:0px;margin-right:0px;font-size:3rem;color:#
     background: white;color:purple;transition: .5s;
 }
 .newInput{
-border:1.4px solid black;   margin:10px;margin-top:20px; padding:5px 10px;font-size: 1.2rem;font-weight: 700;
+border:1.4px solid black;   margin:10px;margin-top:20px; padding:5px 10px;font-size: 1.2rem;font-weight: 700;user-select:none;
 }
 .editBtn,.removeBtn{
     font-size:1.3rem;font-weight:700;margin:3px;
